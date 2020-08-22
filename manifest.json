@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Learning Management System",
+  "description": "LMS",
+  "version": "1.0.0",
+  "icons": { "129": "moodle.png" },
+  "browser_action": {
+    "default_icon": "moodle.png",
+    "default_popup": "Popup1.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
